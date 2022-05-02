@@ -45,6 +45,10 @@ a {
   color: hsl(243, 87%, 12%);  
 }
 
+a:hover {
+    color: gray;
+}
+
 
 .sectionone {
     margin-top: 20%;
@@ -108,12 +112,13 @@ h2 {
 .customer {
     display: flex;
     align-items: center;
-    margin-left: 7%;
-    margin-top: -5%;
+    margin-left: 4%;
+    margin-top: -2%;
 }
 
 .name {
     line-height: 1.4em;
+    margin-left: -2%;
 }
 
 .quotes {
@@ -146,6 +151,11 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+.ulfooter > li > a:hover {
+    color: gray;
+}
+
 
 .bottom {
     height: 57px;
