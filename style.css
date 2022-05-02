@@ -34,9 +34,11 @@ p {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Raleway', sans-serif;
     margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
     color: hsl(243, 87%, 12%);
 }
 
@@ -190,9 +192,6 @@ footer {
 
 @media screen and (min-width : 1630px) {
     header {
-        justify-content: space-between;
-        margin-left: 2%;
-        margin-right: 2%;
         margin-top: 2%;
     }
 
@@ -278,9 +277,6 @@ footer {
 
 @media screen and (min-width : 900px) and (max-width : 1629px) {
     header {
-        justify-content: space-between;
-        margin-left: 2%;
-        margin-right: 2%;
         margin-top: 2%;
     }
 
