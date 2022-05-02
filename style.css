@@ -50,7 +50,7 @@ header {
 
 h1 {
     margin-top: 15%;
-    color: hsl(243, 87%, 12%) ;
+    color: hsl(243, 87%, 12%);
 }
 
 .illustration {
@@ -165,7 +165,7 @@ footer {
     height: 40px;
 }
 
-@media screen and (min-width : 1300px) {
+@media screen and (min-width : 1600px) {
     header {
         justify-content: space-between;
         margin-left: 2%;
@@ -175,6 +175,77 @@ footer {
 
     .top > li {
         padding: 15px;
+    }
+
+    .illustration {
+        float: right;
+        width: 884px;
+        height: 586px;
+        margin-right: 10%;
+        margin-top: -6%;
+    }
+
+    .sectionone {
+        text-align: left;
+        display: block;
+        margin-top: 2%;
+        margin-top: -5%; 
+    }
+
+    .info {
+        display: inline-block;
+        margin-left: 3%;
+    }
+
+    .button {
+        width: 200px;
+    }
+
+    h1, h2 {
+        margin-left: 3%;
+        font-size: 2.5rem;
+    }
+
+    .sectionone > p {
+        max-width: 500px;
+        line-height: 1.6rem;
+        font-size: 1.2rem;
+        color: hsl(243, 87%, 12%);
+    }
+
+    .sectiontwo {
+        display: block;
+        text-align: left;
+        margin-top: 30%;
+    }
+
+    .sectiontwo > p {
+        max-width: 500px;
+        line-height: 1.6rem;
+        font-size: 1.2rem;
+        color: hsl(243, 87%, 12%);
+    }
+
+    .avis {
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bottom {
+        margin-left: 10%;
+        margin-top: -10%;
+    }
+
+    .ulfooter > li {
+        line-height: 3em;
     }
 
 }
