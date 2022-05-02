@@ -85,6 +85,10 @@ footer {
     flex-direction: column;
 }
 
+.ulfooter {
+    margin-left: 5%;
+}
+
 .ulfooter > li {
     list-style: none;
     line-height: 1.9em;
@@ -103,8 +107,8 @@ footer {
 .bottom {
     height: 57px;
     width: 150px;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 /* Responsive desktop*/
