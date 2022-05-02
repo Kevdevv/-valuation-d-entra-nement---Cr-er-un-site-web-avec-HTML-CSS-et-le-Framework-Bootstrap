@@ -6,14 +6,25 @@
 
 body {    
     font-size: 18px;
+    background: hsl(240, 75%, 98%);
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
+
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 1.5em;
+}
+
 
 .logo {
     height: 35px;
     width: 100px;
 }
 
-.top, li {
+.top > li {
     list-style: none;
     display: inline;
     padding: 5px;
@@ -39,6 +50,7 @@ header {
 
 h1 {
     margin-top: 15%;
+    color: hsl(243, 87%, 12%) ;
 }
 
 .illustration {
@@ -66,10 +78,89 @@ h1 {
 
 h2 {
     font-size: 1.3rem;
+    color:  hsl(243, 87%, 12%);
 }
 
 .avis {
-    width: 80%;
+    width: 90%;
     height: 200px;
-    background: gray;
+    background: white;
+    margin-top: 10%;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 75%, 0.5);
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-right: 5%;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    margin-top: -5%;
+}
+
+.name {
+    line-height: 1.4em;
+}
+
+.quotes {
+    height: 20px;
+    width: 20px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.avis > p {
+    margin-left: 3%;
+    margin-right: 3%;
+    color:  hsl(243, 87%, 12%);
+}
+
+footer {
+    background: hsl(243, 87%, 12%);
+    margin-top: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.ulfooter > li {
+    list-style: none;
+    line-height: 1.9em;
+}
+
+.bottom {
+    height: 57px;
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.sectiontwo > p {
+    color: hsl(170, 45%, 43%);
+}
+
+.button {
+    color: white;
+    background: hsl(224, 93%, 58%);
+    border-style: none;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    transform : scale(1.1, 1.1)
+}
+
+#email {
+    width: 300px;
+    height: 40px;
 }
