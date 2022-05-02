@@ -165,7 +165,9 @@ footer {
     height: 40px;
 }
 
-@media screen and (min-width : 1600px) {
+/* Responsive desktop */
+
+@media screen and (min-width : 1618px) {
     header {
         justify-content: space-between;
         margin-left: 2%;
@@ -199,6 +201,7 @@ footer {
 
     .button {
         width: 200px;
+        margin-left: 15px;
     }
 
     h1, h2 {
@@ -246,6 +249,44 @@ footer {
 
     .ulfooter > li {
         line-height: 3em;
+    }
+
+}
+
+/* Responsive tablette*/
+
+@media screen and (min-width : 900px) and (max-width : 1617px) {
+    header {
+        justify-content: space-between;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
+    }
+
+    .illustration {
+        width: 480px;
+        height: 343px;
+        margin-bottom: 0;
+    }
+
+    .sectionone {
+        margin-top: 10%;
+    }
+
+    h1 {
+        margin-top: 5%;
+    }
+
+    .sectiontwo {
+        margin-top: 8%;
+    }
+
+    h2 {
+        margin-top: 5%;
+    }
+
+    .bottom {
+        margin-left: 5%;
     }
 
 }
