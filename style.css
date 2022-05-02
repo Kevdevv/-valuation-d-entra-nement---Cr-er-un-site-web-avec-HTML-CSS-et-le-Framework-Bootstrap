@@ -16,6 +16,7 @@ p {
     margin-left: 3%;
     margin-right: 3%;
     line-height: 1.5em;
+    color: hsl(243, 87%, 12%);
 }
 
 
@@ -37,6 +38,11 @@ header {
     font-family: 'Raleway', sans-serif;
     margin-top: 4%;
     color: hsl(243, 87%, 12%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);  
 }
 
 
@@ -136,6 +142,11 @@ footer {
     line-height: 1.9em;
 }
 
+.ulfooter > li > a {
+    text-decoration: none;
+    color: white;
+}
+
 .bottom {
     height: 57px;
     width: 150px;
@@ -167,7 +178,7 @@ footer {
 
 /* Responsive desktop */
 
-@media screen and (min-width : 1618px) {
+@media screen and (min-width : 1630px) {
     header {
         justify-content: space-between;
         margin-left: 2%;
@@ -201,7 +212,7 @@ footer {
 
     .button {
         width: 200px;
-        margin-left: 15px;
+        margin-left: 8px;
     }
 
     h1, h2 {
@@ -255,7 +266,7 @@ footer {
 
 /* Responsive tablette*/
 
-@media screen and (min-width : 900px) and (max-width : 1617px) {
+@media screen and (min-width : 900px) and (max-width : 1629px) {
     header {
         justify-content: space-between;
         margin-left: 2%;
